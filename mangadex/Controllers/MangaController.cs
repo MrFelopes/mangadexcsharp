@@ -33,7 +33,11 @@ public class MangaController(MangaService service) : ControllerBase
         {
             id = m.Id,
             titulo = m.Attributes.ObterTitulo(),
-            status = m.Attributes.Status
+            descricao = m.Attributes.ObterDescricao(),
+            status = m.Attributes.Status,
+            tipo = m.Type,
+            classIndicativa = m.Attributes.ContentRating,
+            linguaOriginal = m.Attributes.OriginalLanguage
         });
         return Ok(resultado);
     }
