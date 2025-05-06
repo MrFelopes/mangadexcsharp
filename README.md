@@ -1,4 +1,7 @@
-## Treino com a API do mangadex
+## Treino com a API do Mangadex
+
+### O que é?
+Nada demais, apenas um pequeno projeto de API em C# que consome a API do Mangadex. Estou trabalhando nele no meu tempo livre como uma forma de aprender C# :)
 
 ### Como utilizar?
 Para utilizar, rodar em localhost. Por padrão, o projeto roda na porta <b>5212</b>. Nesse caso, o caminho para o projeto seria localhost:5212/api/manga/<b>endpoint</b>
@@ -15,7 +18,7 @@ No momento, o projeto possui apenas 2 endpoints:
 Dois parâmetros estão sendo aplicados por padrão: 
 <br>
 <br>
-<b>limit = "50"</b> (limitando as requisições à API do MangaDex a 50 por vez);
+<b>limit = "50"</b> (limitando as requisições à API do Mangadex a 50 por vez);
 <br>
 <b>availableTranslatedChapters[] = "pt-br"</b> (Apenas mangás que possuem capítulos em português brasileiro serão retornados). 
 <br>
