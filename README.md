@@ -1,7 +1,7 @@
 ## Treino com a API do mangadex
 
 ### Como utilizar?
-Para utilizar, rodar em localhost. Por padrão, o projeto roda na porta <b>5212</b>.
+Para utilizar, rodar em localhost. Por padrão, o projeto roda na porta <b>5212</b>. Nesse caso, o caminho para o projeto seria localhost:5212/api/manga/<b>endpoint</b>
 
 ### Endpoints
 No momento, o projeto possui apenas 2 endpoints:
